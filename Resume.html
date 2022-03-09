@@ -15,6 +15,12 @@
       src="https://kit.fontawesome.com/5d57db3823.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Michelle Vong</title>
   </head>
   <body>
@@ -25,19 +31,21 @@
       width="300px"
     />
     <div id="name">MICHELLE VONG</div>
-    <div>Executive</div>
+    <div id="title">Executive</div>
     <hr size="5" color="black" />
 
     <div class="row">
       <div class="col-sm-8">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">WORK EXPERIENCE</h5>
-            <p class="work" id="work-timeline">Jun 2020 - Present</p>
+            <h5 class="card-title"><strong>WORK EXPERIENCE</strong></h5>
+            <br />
             <p class="work" id="work-title">
-              Executive, Education Development Office<br />
-              Khoo Teck Puat Hospital
+              <strong>Executive, Education Development Office</strong> <br />
+              Khoo Teck Puat Hospital<br /><br />
+              <span class="work" id="work-timeline">Jun 2020 - Present</span>
             </p>
+
             <ul id="work-detail">
               <li>
                 Plan, coordinate and execution of education programs for
@@ -79,10 +87,11 @@
               <li>Training and mentoring new staff</li>
               <li>Handling and resolving of internal conflicts</li>
             </ul>
-            <p class="work" id="work-timeline">Jan 2019 - Jun 2019</p>
+
             <p class="work" id="work-title">
-              Engineering Specialist (Intern)<br />
-              AirLiquide
+              <strong>Engineering Specialist (Intern)</strong><br />
+              AirLiquide<br /><br />
+              <span class="work" id="work-timeline">Jan 2019 - Jun 2019</span>
             </p>
             <ul id="work-detail">
               <li>
@@ -110,10 +119,6 @@
                 engineering, including data extraction and data cleaning
               </li>
               <li>
-                Lead process improvements, drawing policies and procedures to
-                ensure smooth operations of PECT in Yishun Health.
-              </li>
-              <li>
                 Think strategically about task assigned and possible ways to
                 improve efficiency
               </li>
@@ -127,16 +132,16 @@
         </div>
         <div class="card">
           <div class="card-body" id="work-exp">
-            <p class="education">EDUCATION</p>
-            <div id="edu-date">Aug 2016 - May 2020</div>
-            <div id="edu-uni">
+            <h5 class="education"><strong>EDUCATION</strong></h5>
+            <p id="edu-date">Aug 2016 - May 2020</p>
+            <p id="edu-uni">
               <strong
                 >Bachelor of Industrial Systems Engineering and Management
                 <br />
                 National University of Singapore</strong
               ><br />
               Graduated with Honours (Distinction) - 4.05/5.00 GPA
-            </div>
+            </p>
           </div>
         </div>
       </div>
@@ -154,7 +159,8 @@
         <div class="card">
           <div class="card-body">
             <ul class="contact-info">
-              <div>ABOUT ME...</div>
+              <h5><strong>ABOUT ME</strong></h5>
+              <br />
               <div id="my-summary">
                 Dedicated and experienced program coordinator seeking a new
                 career path to expand my experience and skill set. Highly
@@ -176,23 +182,45 @@
             </ul>
           </div>
         </div>
-        <div class="skills">
-          <ul class="skills-list">
-            <li>
-              <i class="fa fa-thin fa-file-excel fa-2x"></i> EXCEL
-              <i class="fa fa-thin fa-file-word fa-2x"></i> WORD
-            </li>
+        <div class="card">
+          <div class="card-body" id="work-exp">
+            <h5><strong>SKILLS</strong></h5>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card-body">
+                  <ul class="skills-list">
+                    <li>
+                      <i class="fa fa-thin fa-file-excel fa-2x"></i><br />Excel
+                    </li>
 
-            <li>
-              <i class="fa fa-thin fa-file-powerpoint fa-2x"></i> POWERPOINT
-              <i class="fa fa-thin fa-code fa-2x"></i> JAVASCRIPT
-            </li>
+                    <li>
+                      <i class="fa fa-thin fa-file-powerpoint fa-2x"></i><br />
+                      Powerpoint
+                    </li>
 
-            <li>
-              <i class="fa fa-brands fa-html5 fa-2x"></i> HTML
-              <i class="fa fa-brands fa-css3 fa-2x"></i> CSS
-            </li>
-          </ul>
+                    <li>
+                      <i class="fa fa-brands fa-html5 fa-2x"></i><br />HTML
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card-body">
+                  <ul class="skills-list">
+                    <li>
+                      <i class="fa fa-thin fa-file-word fa-2x"></i><br />Word
+                    </li>
+
+                    <li>
+                      <i class="fa fa-thin fa-code fa-2x"></i><br />Javascript
+                    </li>
+
+                    <li><i class="fa fa-brands fa-css3 fa-2x"></i><br />CSS</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
