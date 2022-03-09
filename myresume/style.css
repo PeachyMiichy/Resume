@@ -5,6 +5,7 @@ body {
   width: 80%;
   font-family: "Roboto Slab", serif;
   padding: 20px;
+  background-color: #fdf3f3;
 }
 h5 {
   font-family: "Roboto Slab", serif;
@@ -37,4 +38,12 @@ h5 {
 }
 .card {
   margin-top: 20px;
+  /*background-color: rgba(160, 112, 161, 0.7);*/
+  background-color: #f8e7e7;
+}
+hr {
+  color: #724060;
+}
+#display-pic {
+  border-radius: 5px;
 }
