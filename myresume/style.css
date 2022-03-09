@@ -1,0 +1,22 @@
+@import url("//use.fontawesome.com/releases/v5.15.3/css/all.css");
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 80%;
+  font-family: "Open Sans", sans-serif;
+}
+.contact-info {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+.fa {
+  padding-top: 20px;
+}
+.card {
+  margin-top: 20px;
+}
